@@ -1,6 +1,9 @@
+import Navbar from "../components/navbar"
+
 export default function Home() {
   return (
-    <div>
+    <div className="z-0">
+    <Navbar />
       blurb
     </div>
   )
