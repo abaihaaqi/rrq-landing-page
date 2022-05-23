@@ -13,8 +13,8 @@ module.exports = {
         'primary': '#f7b81c',
         'secondary': '#ff8c00',
         'action': '#f3aa36',
-        'init': '#FF2E2E',
-        'last': '#FCDD3C'
+        'init': '#FCDD3C',
+        'last': '#FF2E2E'
       }
     },
   },
