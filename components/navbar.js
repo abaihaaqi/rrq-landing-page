@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className='p-3 sticky top-0 flex justify-between items-center border-b border-black border-opacity-30'>
+      <div className='bg-white p-3 sticky top-0 flex justify-between items-center border-b border-black border-opacity-30 z-50'>
         <Link href="/">
           <a className='block w-14'>
             <Image src={LogoRRQ} layout='responsive' />
@@ -24,7 +24,7 @@ export default function Navbar() {
         </button>
       </div>
       {menuStatus && (
-        <div className='absolute flex flex-col w-full bg-white'>
+        <div className='fixed z-50 flex flex-col w-full bg-white'>
           <Submenu title='DIVISION'>
             <button className={style.listItem}>
               MOBILE LEGEND
