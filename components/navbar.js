@@ -24,7 +24,7 @@ export default function Navbar() {
         </button>
       </div>
       {menuStatus && (
-        <div className='fixed z-50 flex flex-col w-full bg-white'>
+        <div className='fixed z-50 flex flex-col w-full bg-white max-h-screen overflow-scroll'>
           <Submenu title='DIVISION'>
             <button className={style.listItem}>
               MOBILE LEGEND
