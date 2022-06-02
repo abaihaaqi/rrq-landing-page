@@ -9,7 +9,7 @@ export default function AchievementItem({ logoGame, logoTournament, tournament, 
       return (
         <div className='col-span-2 my-1'>
           <div className='flex justify-center'>
-            <Image src={trophy1} />
+            <Image alt='' src={trophy1} />
           </div>
           <p className='text-sm'>
             1st Place
@@ -20,7 +20,7 @@ export default function AchievementItem({ logoGame, logoTournament, tournament, 
       return (
         <div className='col-span-2 my-1'>
           <div className='flex justify-center'>
-            <Image src={trophy2} />
+            <Image alt='' src={trophy2} />
           </div>
           <p className='text-sm'>
             2nd Place
@@ -31,7 +31,7 @@ export default function AchievementItem({ logoGame, logoTournament, tournament, 
       return (
         <div className='col-span-2 my-1'>
           <div className='flex justify-center'>
-            <Image src={trophy3} />
+            <Image alt='' src={trophy3} />
           </div>
           <p className='text-sm'>
             3rd Place
@@ -44,10 +44,10 @@ export default function AchievementItem({ logoGame, logoTournament, tournament, 
   return (
     <div className='grid grid-cols-12 border-b border-black/40'>
       <div className='bg-slate-200 flex justify-center items-center border-r-2 border-secondary'>
-        <Image src={logoGame} />
+        <Image alt='' src={logoGame} />
       </div>
       <div className='col-span-2 flex justify-center items-center'>
-        <Image src={logoTournament} />
+        <Image alt='' src={logoTournament} />
       </div>
       <div className='col-span-7 flex flex-col justify-center'>
         <h3 className='font-medium'>{tournament}</h3>

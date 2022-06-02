@@ -21,10 +21,10 @@ export default function Division({}) {
   return <div className='bg-gradient-to-tr from-init to-last'>
         <div className='relative h-16 flex items-center px-3'>
           <div className='absolute z-10'>
-            <Image src={tulisanDivision} />
+            <Image alt='' src={tulisanDivision} />
           </div>
           <div className='absolute z-0 left-20'>
-            <Image src={tulisanRRQ} />
+            <Image alt='' src={tulisanRRQ} />
           </div>
         </div>
         <DivisionItem background={background1} logo={logo1} />

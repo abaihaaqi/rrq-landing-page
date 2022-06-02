@@ -14,7 +14,7 @@ export default function Navbar() {
       <div className='bg-white shadow-md p-3 md:py-0 md:px-8 sticky top-0 flex justify-between md:grid grid-cols-12 gap-4 border-b border-black border-opacity-30 z-50'>
         <Link href="/">
           <a className='flex items-center w-14 md:w-full'>
-            <Image src={LogoRRQ} />
+            <Image alt='' src={LogoRRQ} />
           </a>
         </Link>
         <button className='md:hidden' onClick={() => setMenuStatus(!menuStatus)}>
