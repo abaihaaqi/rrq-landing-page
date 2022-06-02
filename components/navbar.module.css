@@ -1,3 +1,24 @@
 .listItem {
-  @apply text-lg py-3 px-4 flex justify-between items-center hover:bg-slate-200
+  @apply text-lg md:text-sm py-3 md:py-2 px-4 md:px-3 flex justify-between items-center hover:bg-primary
+}
+
+.navItemContainer {
+  @apply relative
+}
+
+.navItem {
+  @apply relative bg-white z-50 flex items-center gap-1 py-3 px-4 hover:bg-primary rounded-t-md
+}
+
+.navSubContainer {
+  @apply absolute z-10 h-0 overflow-hidden top-0 w-44 bg-primary shadow-lg opacity-0 rounded-b-md transition-all
+}
+
+
+.navItemContainer:hover .navItem {
+  @apply bg-primary
+}
+
+.navItemContainer:hover .navSubContainer {
+  @apply top-full h-max opacity-100
 }
