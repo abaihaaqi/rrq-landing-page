@@ -17,7 +17,7 @@ import logoFreeFireMini from '../public/images/logo-free-fire-mini.png'
 
 export default function ResultAchievement({}) {
   return (
-    <div className='bg-white border border-black/40 m-2 p-3 md:flex gap-4'>
+    <div className='bg-white border border-black/40 m-2 md:mx-16 p-3 md:flex gap-4'>
       <div>
         <div className='font-rubik text-lg grid grid-cols-2'>
           <button className='border-b border-secondary'>
