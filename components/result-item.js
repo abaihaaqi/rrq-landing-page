@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function ResultItem({ logoGame, logoDefender, logoAttacker, match, defender, attacker, phase, win, defenderPoint, attackerPoint }) {
   return (
-    <div className='grid grid-cols-12 border-b border-black/40'>
+    <div className='grid grid-cols-12 border-b border-black/40 h-[76px] bg-slate-50'>
       <div className='bg-slate-200 flex justify-center items-center border-r-2 border-secondary'>
         <Image alt='' src={logoGame} />
       </div>
@@ -26,7 +26,7 @@ export default function ResultItem({ logoGame, logoDefender, logoAttacker, match
           </span>
         </div>
       </div>
-      <div className='text-right col-span-4 flex flex-col justify-center'>
+      <div className='text-right col-span-4 flex flex-col justify-center pr-2'>
         <div className='truncate text-sm'>
           {phase}
         </div>
