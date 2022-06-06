@@ -1,0 +1,15 @@
+.itemContainer {
+  @apply relative h-[490px] w-[280px] -skew-x-6 overflow-hidden z-0 transition-all
+}
+
+.itemAction {
+  @apply bg-action rounded mb-14 px-3 py-1 shadow-lg transition-all
+}
+
+.itemContainer:hover {
+  @apply z-10 scale-110 -translate-y-5 shadow-lg cursor-pointer
+}
+
+.itemContainer:hover .itemAction {
+  @apply outline outline-2 outline-action outline-offset-2 scale-105
+}
