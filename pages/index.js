@@ -59,9 +59,11 @@ export default function Home() {
           <Image alt='' src={logoZilliqa} />
         </div>
       </div>
-      <div className='bg-zinc-800 px-10 py-3 text-xs text-white'>
-        <Image alt='' src={logoRRQ} />
-        <div className='grid grid-cols-2'>
+      <div className='bg-zinc-800 px-10 py-3 text-xs text-white grid grid-cols-1 md:grid-cols-5'>
+        <div className='md:flex md:justify-end md:pr-6'>
+          <Image alt='' src={logoRRQ} layout='fixed' />
+        </div>
+        <div className='col-span-2 grid grid-cols-2 md:grid-cols-3'>
           <div>
             <h3 className='text-sm font-bold'>REX REGUM QEON</h3>
             <div className='flex flex-col gap-2 my-2 text-white/70'>
@@ -102,12 +104,6 @@ export default function Home() {
                 Contact
               </p>
             </div>
-            <h3 className='font-bold'>FOLLOW US</h3>
-            <div className='my-2 flex gap-4'>
-              <InstagramLogo size={24} />
-              <YoutubeLogo size={24} />
-              <FacebookLogo size={24} />
-            </div>
           </div>
           <div>
             <h3 className='text-sm font-bold'>DIVISIONS</h3>
@@ -133,6 +129,14 @@ export default function Home() {
               <p>
                 Sausage Man
               </p>
+            </div>
+          </div>
+          <div>
+            <h3 className='font-bold'>FOLLOW US</h3>
+            <div className='my-2 flex gap-4'>
+              <InstagramLogo size={24} />
+              <YoutubeLogo size={24} />
+              <FacebookLogo size={24} />
             </div>
           </div>
         </div>
